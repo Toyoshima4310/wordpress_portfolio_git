@@ -1,0 +1,302 @@
+@charset "utf8";
+/* 
+Theme Name: Portfolio
+Author: Toyoshima Sumito
+Description: 実績を掲載するポートフォリオサイト
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gun.org/license/gp1-2.0.html
+*/
+
+/* スマートフォン版 */
+@media (max-width:767px) {
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-size:3vw;
+    color:#505050;
+    font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro", "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "メイリオ", sans-serif;
+  }
+
+  .logo {
+    font-size:5.5vw;
+  }
+
+  .topLeft {
+    width:40vw;
+    height:60vw;
+    border:solid 1px black;
+    margin:0 2vw;
+  }
+
+  .topRight {
+    font-size:3.2vw;
+  }
+
+  .title {
+    font-size:7vw;
+    margin-top:25vw;
+  }
+
+  .title span {
+    color:#7DA8ED;
+  }
+
+  .link {
+    background-color:#EBFFFD;
+    display:inline-block;
+    width:50vw;
+  }
+
+  .link a {
+    text-decoration:none;
+    color:#505050;
+    display:block;
+    padding:3vw;
+  }
+
+  .link:hover {
+    background-color:#CCF3FF;
+  }
+
+  .blank {
+    width:100%;
+    height:60vw;
+    background-color: gray;
+  }
+
+  .left {
+    width:46vw;
+    height:30vw;
+    border: solid 1px black;
+    margin:0 2vw;
+  }
+
+  .workTitle {
+    font-size:4vw;
+  }
+
+  .detail {
+    background-color:#EBFFFD;
+    margin:0 2vw;
+    cursor:pointer;
+  }
+
+  .detail span {
+    font-size:1.5vw;
+  }
+
+  .detail:hover {
+    background-color:#CCF3FF;
+  }
+
+   .lngImg {
+    width:30vw;
+  } 
+
+  .lngName {
+    font-size:4vw;
+  }
+
+  .lngName span {
+    color:#92CCF7;
+  }
+
+  .lngText {
+    font-size:3vw;
+  }
+
+  .proText {
+    width:88vw;
+    margin:auto;
+  }
+
+  .input {
+    border:solid 1px #7DA8ED;
+    width:60vw;
+    padding:3vw;
+    margin:3vw 0 3vw 20vw;
+  }
+
+  .submit {
+    background-color:#DFFCFB;
+    border:solid 1px #DFFCFB;
+    width:20vw;
+    height:10vw;
+    margin:5vw 0 0 40vw;
+    border-radius:3vw;
+  }
+
+  .submit:hover{
+    background-color:#CCF3FF;
+  }
+
+  .footer {
+    background-color:#DFFCFB;
+    height:10vw;
+    padding-top:3vw;
+    margin-top:20vw;
+  }
+
+}
+
+/* スマートフォン版ここまで */
+
+
+/* パソコン版スタート */
+
+@media (min-width:768px) {
+ 
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-size:1.4vw;
+    color:#505050;
+    font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro", "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "メイリオ", sans-serif;
+  }
+
+  .pcwidth {
+    width:992px;
+    margin:auto;
+  }
+
+  .logo {
+    font-size:2.5vw;
+  }
+
+  .topLeft {
+    width:40vw;
+    height:60vw;
+    border:solid 1px black;
+    margin:0 2vw;
+  }
+
+  .topRight {
+    font-size:3.2vw;
+  }
+
+  .title {
+    font-size:2.5vw;
+    margin-top:10vw;
+  }
+
+  .title span {
+    color:#7DA8ED;
+  }
+
+  .links {
+    background-color: #EBFFFD;
+  }
+
+  .link {
+    background-color:#EBFFFD;
+    cursor:pointer;
+  }
+
+  .link a {
+    text-decoration:none;
+    color:#505050;
+    display:block;
+    padding:1.5vw 3vw;
+  }
+
+  .link:hover {
+    background-color:#CCF3FF;
+  }
+
+  .blank {
+    width:100%;
+    height:60vw;
+    background-color: gray;
+  }
+
+  .left {
+    width:15vw;
+    height:10vw;
+    border: solid 1px black;
+    margin:0 2vw;
+  }
+  
+  .right {
+    width:20vw;
+    height:10vw;
+  }
+
+  .workTitle {
+    font-size:1.8vw;
+  }
+
+  .detail {
+    background-color:#EBFFFD;
+    margin:0 2vw;
+    cursor:pointer;
+  }
+
+  .detail span {
+    font-size:0.3vw;
+    position: relative;
+    bottom:0.2vw;
+  }
+
+  .detail:hover {
+    background-color:#CCF3FF;
+  }
+
+   .lngImg {
+    width:12vw;
+  } 
+
+  .lngName {
+    font-size:1.5vw;
+  }
+
+  .lngName span {
+    color:#92CCF7;
+  }
+
+  .lngText {
+    font-size:1.2vw;
+  }
+
+  .proText {
+    display:inline-block;
+    margin:auto;
+  }
+
+  .input {
+    border:solid 1px #7DA8ED;
+    display:block;
+    width:30vw;
+    padding:0.5vw;
+    margin-top:2vw;
+    position:relative;
+    left:35vw;
+  }
+
+  .submit {
+    background-color:#DFFCFB;
+    border:solid 1px #DFFCFB;
+    width:10vw;
+    height:5vw;
+    margin:2vw 0 0 45vw;
+    border-radius:3vw;
+  }
+
+  .submit:hover{
+    background-color:#CCF3FF;
+  }
+
+  .footer {
+    background-color:#DFFCFB;
+    height:5vw;
+    padding-top:1.5vw;
+    margin-top:20vw;
+  }
+
+
+}
