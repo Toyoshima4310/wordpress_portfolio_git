@@ -199,8 +199,7 @@
           ダンスサークルに所属していたこともあり、ダンスも好きです。
         </div>
       </div>
-      
+
       <?php require('page-contact.php'); ?>
-      
       
 <?php get_footer(); ?>
