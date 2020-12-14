@@ -206,7 +206,7 @@
         気軽にご連絡ください。<br>
         翌日以内に返信いたします。
       </div>
-      <div class="form mt-4 mt-md-5">
+       <div class="form mt-4 mt-md-5">
         <?php echo apply_filters('the_content','[contact-form-7 id="12" title="お問い合わせ"]') ?>
       </div>
       
