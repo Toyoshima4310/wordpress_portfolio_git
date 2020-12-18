@@ -116,9 +116,12 @@ License URI: http://www.gun.org/license/gp1-2.0.html
 
   .input {
     border:solid 1px #7DA8ED;
+    display:block;
     width:60vw;
     padding:3vw;
-    margin:3vw 0 3vw 20vw;
+    margin-top:5vw;
+    position:relative;
+    left:20vw;
   }
 
   .submit {
