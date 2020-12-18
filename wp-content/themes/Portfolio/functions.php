@@ -4,8 +4,7 @@ function add_origin_thanks_page() {
     echo <<< EOC
     <script>
       document.addEventListener( 'wpcf7mailsent', function( event ) {
-        location = 'https://www.xn--n8j5fqa2502b.com/
-        ';
+        location = 'https://www.tsportfolio.uh-oh.jp/?page_id=6';
       }, false );
     </script>
    EOC;
