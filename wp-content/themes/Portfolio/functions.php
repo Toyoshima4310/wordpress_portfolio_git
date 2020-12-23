@@ -1,12 +1,7 @@
 <?php
-add_action( 'wp_footer', 'add_origin_thanks_page' );
-function add_origin_thanks_page() {
-    echo <<< EOC
-    <script>
-      document.addEventListener( 'wpcf7mailsent', function( event ) {
-        location = 'https://www.tsportfolio.uh-oh.jp/?page_id=6';
-      }, false );
-    </script>
-   EOC;
-}
+add_action('wp_enqueue_scripts', 'my_enqueue_scripts');
+function my_enqueue_scripts() {
+    wp_deregister_script('jquery');
+    wp_enqueue_script('jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js', array(), '3.3.1');
+};
 ?>
