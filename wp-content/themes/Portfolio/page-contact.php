@@ -18,11 +18,6 @@
     <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
     
     <title><?php echo bloginfo( 'name' ); ?></title>
-    <!-- <script>
-      document.addEventListener( 'wpcf7mailsent', function( event ) {
-          location = 'https://www.xn--n8j5fqa2502b.com/';
-      }, false );
-    </script> -->
     <?php wp_head(); ?>
   </head>
   <body <?php body_class(); ?>>
@@ -40,7 +35,7 @@
     </div>
   
 
-<<!-- Optional JavaScript -->
+<!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

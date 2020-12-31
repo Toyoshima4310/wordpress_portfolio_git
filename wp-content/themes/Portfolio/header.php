@@ -11,11 +11,6 @@
     <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
     
     <title><?php echo bloginfo( 'name' ); ?></title>
-    <!-- <script>
-      document.addEventListener( 'wpcf7mailsent', function( event ) {
-          location = 'https://www.xn--n8j5fqa2502b.com/';
-      }, false );
-    </script> -->
     <?php wp_head(); ?>
   </head>
   <body <?php body_class(); ?>>

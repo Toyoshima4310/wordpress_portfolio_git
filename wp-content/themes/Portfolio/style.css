@@ -69,9 +69,9 @@ License URI: http://www.gun.org/license/gp1-2.0.html
   }
 
   .left {
-    width:46vw;
-    height:30vw;
-    border: solid 1px black;
+    width:45vw;
+    height:31vw;
+    border: dashed 1px #7DA8ED;
     margin:0 2vw;
   }
 
@@ -219,9 +219,9 @@ License URI: http://www.gun.org/license/gp1-2.0.html
   }
 
   .left {
-    width:15vw;
-    height:10vw;
-    border: solid 1px black;
+    width:21vw;
+    height:14vw;
+    border: dashed 2px #7DA8ED;
     margin:0 2vw;
   }
   

@@ -11,7 +11,9 @@
             <div class="row">
               <div class="work mb-5 col-12 col-md-6">
                 <div class="d-flex">
-                  <div class="left flex-fill">実績サムネ</div>
+                  <div class="left flex-fill">
+                    <img src="<?php echo esc_url( get_theme_file_uri( 'images/yaimaimg.jpeg' ) ); ?>" alt="やいま塾サイトのサムネイル" class="img-fluid">
+                  </div>
                   <div class="ml-2 flex-fill right">
                       <div class="workTitle my-2">
                         錬成教室 やいま塾
@@ -48,7 +50,9 @@
               
               <div class="work mb-5 col-12 col-md-6">
                 <div class="d-flex">
-                  <div class="left">実績サムネ</div>
+                  <div class="left">
+                  <img src="<?php echo esc_url( get_theme_file_uri( 'images/portfolioimg.jpeg' ) ); ?>" alt="ポートフォリオサイトのサムネイル" class="img-fluid">
+                  </div>
                   <div class="ml-2 right">
                       <div class="workTitle my-2">
                         My Portfolio Site
