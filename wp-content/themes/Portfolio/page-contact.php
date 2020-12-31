@@ -31,7 +31,7 @@
       メールの送信が完了しました。<br>
       自動確認メールを送信致しますので、ご確認ください。<br>
       ２日以内にメールにてご連絡いたします。<br><br>
-      <a href="https://www.tsportfolio.uh-oh.jp/">トップページへ戻る</a>
+      <a href="https://tsportfolio.uh-oh.jp/">トップページへ戻る</a>
     </div>
   
 
